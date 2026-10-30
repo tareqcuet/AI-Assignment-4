@@ -1,0 +1,1 @@
+"""Automated assignment tests."""

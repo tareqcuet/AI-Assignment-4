@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Budget Ultra-portable",
+    "if": [
+      "budget_high",
+      "portable",
+      "long_battery"
+    ],
+    "then": "recommend:premium_ultrabook",
+    "priority": 5,
+    "confidence": 1.0
+  },
+  {
+    "name": "Student light office",
+    "if": [
+      "budget_low",
+      "office_only",
+      "portable"
+    ],
+    "then": "recommend:budget_ultrabook",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Gaming",
+    "if": [
+      "gaming",
+      "budget_medium"
+    ],
+    "then": "recommend:midrange_gaming_laptop",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Pro gaming",
+    "if": [
+      "gaming",
+      "budget_high"
+    ],
+    "then": "recommend:high_end_gaming_laptop",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Creative work (portable)",
+    "if": [
+      "creative_work",
+      "portable"
+    ],
+    "then": "spec:ram_16_plus",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Creative work (display)",
+    "if": [
+      "creative_work",
+      "large_screen"
+    ],
+    "then": "spec:display_15_plus_color_accurate",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Travel + battery",
+    "if": [
+      "travel_often",
+      "long_battery"
+    ],
+    "then": "spec:battery_60wh_plus",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "OS preference mapping",
+    "if": [
+      "pref_os_macos"
+    ],
+    "then": "spec:macos_required",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "AI acceleration",
+    "if": [
+      "needs_ai_accel"
+    ],
+    "then": "spec:gpu_with_tensor_cores",
+    "priority": 0,
+    "confidence": 1.0
+  },
+  {
+    "name": "Linux suitability",
+    "if": [
+      "pref_os_linux",
+      "office_only"
+    ],
+    "then": "spec:linux_friendly_hw",
+    "priority": 0,
+    "confidence": 1.0
+  }
+]

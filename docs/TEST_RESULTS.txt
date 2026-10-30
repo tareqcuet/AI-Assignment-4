@@ -1,0 +1,49 @@
+Bonus edition
+Runtime: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python3 -m unittest discover -s tests -v
+Python 3.8 syntax check passed; execution used the runtime above.
+
+test_chained_confidence (test_bonus.BonusTests.test_chained_confidence) ... ok
+test_confidence_prompt_retries_and_default (test_bonus.BonusTests.test_confidence_prompt_retries_and_default) ... ok
+test_improvement_propagates_and_trace_retains_old_values (test_bonus.BonusTests.test_improvement_propagates_and_trace_retains_old_values) ... ok
+test_increased_input_confidence_and_no_retraction (test_bonus.BonusTests.test_increased_input_confidence_and_no_retraction) ... ok
+test_invalid_confidence_rejected (test_bonus.BonusTests.test_invalid_confidence_rejected) ... ok
+test_loader_weights_and_invalid_weights (test_bonus.BonusTests.test_loader_weights_and_invalid_weights) ... ok
+test_minimum_times_rule_confidence (test_bonus.BonusTests.test_minimum_times_rule_confidence) ... ok
+test_missing_unknown_and_disabled_rules (test_bonus.BonusTests.test_missing_unknown_and_disabled_rules) ... ok
+test_multiple_evidence_uses_max_not_sum (test_bonus.BonusTests.test_multiple_evidence_uses_max_not_sum) ... ok
+test_proof_cannot_be_mutated_by_caller (test_bonus.BonusTests.test_proof_cannot_be_mutated_by_caller) ... ok
+test_uncertain_cli_end_to_end (test_bonus.BonusTests.test_uncertain_cli_end_to_end) ... ok
+test_unconditional_weight (test_bonus.BonusTests.test_unconditional_weight) ... ok
+test_weighted_cycle_terminates_without_inflation (test_bonus.BonusTests.test_weighted_cycle_terminates_without_inflation) ... ok
+test_why_not_missing_disabled_unknown_and_supported (test_bonus.BonusTests.test_why_not_missing_disabled_unknown_and_supported) ... ok
+test_cancelled_input_handled (test_project.CLITests.test_cancelled_input_handled) ... ok
+test_complete_cli_from_other_directory (test_project.CLITests.test_complete_cli_from_other_directory) ... ok
+test_every_boolean_can_be_collected (test_project.CLITests.test_every_boolean_can_be_collected) ... ok
+test_missing_file_handled (test_project.CLITests.test_missing_file_handled) ... ok
+test_no_match_message (test_project.CLITests.test_no_match_message) ... ok
+test_normalized_and_invalid_answers (test_project.CLITests.test_normalized_and_invalid_answers) ... ok
+test_office_only_excluded_for_gaming (test_project.CLITests.test_office_only_excluded_for_gaming) ... ok
+test_add_facts_after_run (test_project.EngineTests.test_add_facts_after_run) ... ok
+test_all_antecedents_and_unknown_consequent (test_project.EngineTests.test_all_antecedents_and_unknown_consequent) ... ok
+test_conclusion_categories (test_project.EngineTests.test_conclusion_categories) ... ok
+test_cycles_duplicate_consequents_and_reruns (test_project.EngineTests.test_cycles_duplicate_consequents_and_reruns) ... ok
+test_multistep_reverse_order (test_project.EngineTests.test_multistep_reverse_order) ... ok
+test_priority_and_stable_ties (test_project.EngineTests.test_priority_and_stable_ties) ... ok
+test_trace_explains_derivation (test_project.EngineTests.test_trace_explains_derivation) ... ok
+test_unconditional_rule_and_empty_kb (test_project.EngineTests.test_unconditional_rule_and_empty_kb) ... ok
+test_unsupported_cycle_derives_nothing (test_project.EngineTests.test_unsupported_cycle_derives_nothing) ... ok
+test_all_ten_rules_match_source (test_project.LaptopRuleTests.test_all_ten_rules_match_source) ... ok
+test_combined_profile (test_project.LaptopRuleTests.test_combined_profile) ... ok
+test_each_required_antecedent (test_project.LaptopRuleTests.test_each_required_antecedent) ... ok
+test_each_rule_positive (test_project.LaptopRuleTests.test_each_rule_positive) ... ok
+test_multiple_recommendations_are_preserved (test_project.LaptopRuleTests.test_multiple_recommendations_are_preserved) ... ok
+test_no_match (test_project.LaptopRuleTests.test_no_match) ... ok
+test_defaults (test_project.LoaderTests.test_defaults) ... ok
+test_invalid_json (test_project.LoaderTests.test_invalid_json) ... ok
+test_invalid_structures (test_project.LoaderTests.test_invalid_structures) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.120s
+
+OK
